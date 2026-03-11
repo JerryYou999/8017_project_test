@@ -34,8 +34,9 @@ Name: count, dtype: int64
 
 各型号数量：
 型号
-其他        883
+XM-5        883
 R50       494
 ZV-E10    193
 Z30       188
+
 Name: count, dtype: int64
