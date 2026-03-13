@@ -1,42 +1,53 @@
-原始数据行数：1787
-字段瘦身后保留的列：['页面标题', '评价星级', '评价内容', '时间', '追评内容']
-当前数据行数：1787
-打标签完成
-过滤完成，删除 29 行无效数据，剩余 1758 行
+正在读取文件...
+佳能: 1288条
+富士: 889条
+尼康: 1062条
+索尼: 941条
 
-完整清洗版已保存：清洗后输出\CameraReviews_Cleaned.xlsx
+合并后总条数：4180
+删除未填写评价内容：4条
+去掉完全重复的评论：6条
 
-按品牌拆分：
-尼康：188 条
-索尼：193 条
-佳能：494 条
-富士：883 条
-
-==================================================
-最终数据统计
-==================================================
-总评论数：1758
+✅ 完成！共 4170 条
 
 各品牌数量：
 品牌
-富士    883
-佳能    494
-索尼    193
-尼康    188
+佳能    1286
+尼康    1062
+索尼     940
+富士     882
 Name: count, dtype: int64
 
-评分分布：
-评分分组
-好评    1718
-差评      32
-中评       8
-Name: count, dtype: int64
 
-各型号数量：
-型号
-富士XM-5        883
-佳能R50       494
-索尼ZV-E10    193
-尼康Z30       188
 
-Name: count, dtype: int64
+
+Links
+
+Nikon Z30
+https://item.jd.com/100028068833.html
+https://item.jd.com/10055931096628.html
+https://item.jd.com/10140141734718.html
+https://item.jd.com/10055725758016.html
+
+Sony ZVE10
+https://item.jd.com/100013051295.html
+https://item.jd.com/10054809857901.html
+https://item.jd.com/10143555185631.html
+https://item.jd.com/10181364458892.html
+
+Canon R50
+https://item.jd.com/10070240860330.html
+https://item.jd.com/100044817308.html
+https://item.jd.com/10102160670300.html
+
+Fuji XM5
+https://item.jd.com/100124090695.html
+https://item.jd.com/100150444894.html
+https://item.jd.com/10151175362528.html
+https://item.jd.com/10106468620324.html
+
+*Olympus EM10
+https://item.jd.com/100014961688.html
+https://item.jd.com/72327796791.html
+
+
