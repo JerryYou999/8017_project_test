@@ -1,0 +1,19 @@
+{
+  "num_reviews": 4170,
+  "num_chunks": 83,
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "num_dimensions": 384,
+  "source_type_counts": {
+    "review_evidence": 52,
+    "brand_topic_summary": 16,
+    "topic_summary": 5,
+    "brand_summary": 4,
+    "trend_summary": 4,
+    "overall_summary": 1,
+    "sentiment_alignment_summary": 1
+  },
+  "num_doc_files_processed": 0,
+  "doc_files": [],
+  "index_backend": "numpy",
+  "faiss_available_during_build": false
+}

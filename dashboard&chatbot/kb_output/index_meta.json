@@ -1,0 +1,4 @@
+{
+  "backend": "numpy",
+  "metric": "inner_product_on_normalized_embeddings"
+}

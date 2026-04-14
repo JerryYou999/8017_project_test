@@ -1,0 +1,764 @@
+﻿source_type,source_file,brand,topic,sentiment,title,text,chunk_id
+overall_summary,data\camera_sentiment_label.xlsx,ALL,ALL,ALL,Overall project summary,"Overall project summary for the entry-level camera review analysis.
+Total reviews: 4170.
+Covered period: 2021-10-11 to 2026-03-12.
+Brands covered: Canon (佳能), Fujifilm (富士), Nikon (尼康), Sony (索尼).
+Topic distribution: Logistics & Service: 1654 reviews (39.66%); Appearance & Satisfaction: 969 reviews (23.24%); Performance & Quality: 883 reviews (21.18%); Design & Portability: 661 reviews (15.85%); Unassigned: 3 reviews (0.07%).
+Rule-based sentiment distribution: positive: 4167 (99.93%); neutral: 3 (0.07%).
+Model-predicted sentiment distribution: positive: 4167 (99.93%); neutral: 3 (0.07%).
+Average sentiment scores: positive=0.924, neutral=0.067, negative=0.009.
+Average auxiliary scores: referral=0.016, community=0.001, discussion=0.008.",chunk_00000
+sentiment_alignment_summary,data\camera_sentiment_label.xlsx,ALL,ALL,ALL,Rule vs predicted sentiment comparison,"Comparison between rule-based sentiment and model-predicted sentiment.
+For rule-based label neutral: predicted neutral: 3; predicted positive: 0.
+For rule-based label positive: predicted neutral: 0; predicted positive: 4167.",chunk_00001
+brand_summary,data\camera_sentiment_label.xlsx,佳能,ALL,ALL,Brand summary - Canon (佳能),"Brand summary for Canon (佳能).
+Review volume: 1286 reviews (30.84% of all reviews).
+Most discussed topic: Logistics & Service (597 reviews).
+Least discussed topic: Design & Portability (218 reviews).
+Best topic by average positive score: Design & Portability.
+Highest-risk topic by average negative score: Appearance & Satisfaction.
+Topic distribution: Logistics & Service: 597 (46.42%); Appearance & Satisfaction: 250 (19.44%); Performance & Quality: 221 (17.19%); Design & Portability: 218 (16.95%).
+Rule-based sentiment distribution: positive: 1286 (100.0%).
+Model-predicted sentiment distribution: positive: 1286 (100.0%).
+Average sentiment scores: positive=0.932, neutral=0.060, negative=0.008.
+Average auxiliary scores: referral=0.015, community=0.000, discussion=0.008.",chunk_00002
+brand_summary,data\camera_sentiment_label.xlsx,富士,ALL,ALL,Brand summary - Fujifilm (富士),"Brand summary for Fujifilm (富士).
+Review volume: 882 reviews (21.15% of all reviews).
+Most discussed topic: Logistics & Service (382 reviews).
+Least discussed topic: Unassigned (2 reviews).
+Best topic by average positive score: Design & Portability.
+Highest-risk topic by average negative score: Appearance & Satisfaction.
+Topic distribution: Logistics & Service: 382 (43.31%); Appearance & Satisfaction: 310 (35.15%); Performance & Quality: 124 (14.06%); Design & Portability: 64 (7.26%); Unassigned: 2 (0.23%).
+Rule-based sentiment distribution: positive: 882 (100.0%).
+Model-predicted sentiment distribution: positive: 882 (100.0%).
+Average sentiment scores: positive=0.907, neutral=0.082, negative=0.011.
+Average auxiliary scores: referral=0.024, community=0.000, discussion=0.005.",chunk_00003
+brand_summary,data\camera_sentiment_label.xlsx,尼康,ALL,ALL,Brand summary - Nikon (尼康),"Brand summary for Nikon (尼康).
+Review volume: 1062 reviews (25.47% of all reviews).
+Most discussed topic: Logistics & Service (402 reviews).
+Least discussed topic: Design & Portability (169 reviews).
+Best topic by average positive score: Design & Portability.
+Highest-risk topic by average negative score: Logistics & Service.
+Topic distribution: Logistics & Service: 402 (37.85%); Performance & Quality: 280 (26.37%); Appearance & Satisfaction: 211 (19.87%); Design & Portability: 169 (15.91%).
+Rule-based sentiment distribution: positive: 1059 (99.72%); neutral: 3 (0.28%).
+Model-predicted sentiment distribution: positive: 1059 (99.72%); neutral: 3 (0.28%).
+Average sentiment scores: positive=0.924, neutral=0.067, negative=0.009.
+Average auxiliary scores: referral=0.012, community=0.000, discussion=0.010.",chunk_00004
+brand_summary,data\camera_sentiment_label.xlsx,索尼,ALL,ALL,Brand summary - Sony (索尼),"Brand summary for Sony (索尼).
+Review volume: 940 reviews (22.54% of all reviews).
+Most discussed topic: Logistics & Service (273 reviews).
+Least discussed topic: Unassigned (1 reviews).
+Best topic by average positive score: Design & Portability.
+Highest-risk topic by average negative score: Unassigned.
+Topic distribution: Logistics & Service: 273 (29.04%); Performance & Quality: 258 (27.45%); Design & Portability: 210 (22.34%); Appearance & Satisfaction: 198 (21.06%); Unassigned: 1 (0.11%).
+Rule-based sentiment distribution: positive: 940 (100.0%).
+Model-predicted sentiment distribution: positive: 940 (100.0%).
+Average sentiment scores: positive=0.930, neutral=0.062, negative=0.008.
+Average auxiliary scores: referral=0.017, community=0.001, discussion=0.008.",chunk_00005
+topic_summary,data\camera_sentiment_label.xlsx,ALL,Appearance & Satisfaction,ALL,Topic summary - Appearance & Satisfaction,"Topic summary for Appearance & Satisfaction.
+Review volume: 969 reviews (23.24% of all reviews).
+Most associated brand by volume: Fujifilm (富士) (310 reviews).
+Brand with highest average positive score in this topic: Canon (佳能).
+Brand with highest average negative score in this topic: Fujifilm (富士).
+Brand distribution within topic: Fujifilm (富士): 310 (31.99%); Canon (佳能): 250 (25.8%); Nikon (尼康): 211 (21.78%); Sony (索尼): 198 (20.43%).
+Average sentiment scores within topic: positive=0.910, neutral=0.080, negative=0.011.
+Average auxiliary scores within topic: referral=0.010, community=0.000, discussion=0.004.",chunk_00006
+topic_summary,data\camera_sentiment_label.xlsx,ALL,Design & Portability,ALL,Topic summary - Design & Portability,"Topic summary for Design & Portability.
+Review volume: 661 reviews (15.85% of all reviews).
+Most associated brand by volume: Canon (佳能) (218 reviews).
+Brand with highest average positive score in this topic: Nikon (尼康).
+Brand with highest average negative score in this topic: Fujifilm (富士).
+Brand distribution within topic: Canon (佳能): 218 (32.98%); Sony (索尼): 210 (31.77%); Nikon (尼康): 169 (25.57%); Fujifilm (富士): 64 (9.68%).
+Average sentiment scores within topic: positive=0.968, neutral=0.029, negative=0.003.
+Average auxiliary scores within topic: referral=0.006, community=0.000, discussion=0.005.",chunk_00007
+topic_summary,data\camera_sentiment_label.xlsx,ALL,Logistics & Service,ALL,Topic summary - Logistics & Service,"Topic summary for Logistics & Service.
+Review volume: 1654 reviews (39.66% of all reviews).
+Most associated brand by volume: Canon (佳能) (597 reviews).
+Brand with highest average positive score in this topic: Canon (佳能).
+Brand with highest average negative score in this topic: Fujifilm (富士).
+Brand distribution within topic: Canon (佳能): 597 (36.09%); Nikon (尼康): 402 (24.3%); Fujifilm (富士): 382 (23.1%); Sony (索尼): 273 (16.51%).
+Average sentiment scores within topic: positive=0.918, neutral=0.072, negative=0.010.
+Average auxiliary scores within topic: referral=0.023, community=0.000, discussion=0.013.",chunk_00008
+topic_summary,data\camera_sentiment_label.xlsx,ALL,Performance & Quality,ALL,Topic summary - Performance & Quality,"Topic summary for Performance & Quality.
+Review volume: 883 reviews (21.18% of all reviews).
+Most associated brand by volume: Nikon (尼康) (280 reviews).
+Brand with highest average positive score in this topic: Canon (佳能).
+Brand with highest average negative score in this topic: Fujifilm (富士).
+Brand distribution within topic: Nikon (尼康): 280 (31.71%); Sony (索尼): 258 (29.22%); Canon (佳能): 221 (25.03%); Fujifilm (富士): 124 (14.04%).
+Average sentiment scores within topic: positive=0.918, neutral=0.072, negative=0.009.
+Average auxiliary scores within topic: referral=0.019, community=0.002, discussion=0.004.",chunk_00009
+topic_summary,data\camera_sentiment_label.xlsx,ALL,Unassigned,ALL,Topic summary - Unassigned,"Topic summary for Unassigned.
+Review volume: 3 reviews (0.07% of all reviews).
+Most associated brand by volume: Fujifilm (富士) (2 reviews).
+Brand with highest average positive score in this topic: Fujifilm (富士).
+Brand with highest average negative score in this topic: Sony (索尼).
+Brand distribution within topic: Fujifilm (富士): 2 (66.67%); Sony (索尼): 1 (33.33%).
+Average sentiment scores within topic: positive=0.925, neutral=0.066, negative=0.009.
+Average auxiliary scores within topic: referral=0.000, community=0.000, discussion=0.000.",chunk_00010
+brand_topic_summary,data\camera_sentiment_label.xlsx,佳能,Appearance & Satisfaction,ALL,Brand-topic summary - Canon (佳能) - Appearance & Satisfaction,"Brand-topic summary for Canon (佳能) on Appearance & Satisfaction.
+Review volume in this slice: 250.
+Dominant rule-based sentiment: positive (250 reviews).
+Dominant model-predicted sentiment: positive (250 reviews).
+Average sentiment scores: positive=0.921, neutral=0.069, negative=0.009.
+Average auxiliary scores: referral=0.009, community=0.000, discussion=0.004.",chunk_00011
+brand_topic_summary,data\camera_sentiment_label.xlsx,佳能,Design & Portability,ALL,Brand-topic summary - Canon (佳能) - Design & Portability,"Brand-topic summary for Canon (佳能) on Design & Portability.
+Review volume in this slice: 218.
+Dominant rule-based sentiment: positive (218 reviews).
+Dominant model-predicted sentiment: positive (218 reviews).
+Average sentiment scores: positive=0.966, neutral=0.030, negative=0.003.
+Average auxiliary scores: referral=0.007, community=0.000, discussion=0.002.",chunk_00012
+brand_topic_summary,data\camera_sentiment_label.xlsx,佳能,Logistics & Service,ALL,Brand-topic summary - Canon (佳能) - Logistics & Service,"Brand-topic summary for Canon (佳能) on Logistics & Service.
+Review volume in this slice: 597.
+Dominant rule-based sentiment: positive (597 reviews).
+Dominant model-predicted sentiment: positive (597 reviews).
+Average sentiment scores: positive=0.924, neutral=0.067, negative=0.009.
+Average auxiliary scores: referral=0.019, community=0.000, discussion=0.014.",chunk_00013
+brand_topic_summary,data\camera_sentiment_label.xlsx,佳能,Performance & Quality,ALL,Brand-topic summary - Canon (佳能) - Performance & Quality,"Brand-topic summary for Canon (佳能) on Performance & Quality.
+Review volume in this slice: 221.
+Dominant rule-based sentiment: positive (221 reviews).
+Dominant model-predicted sentiment: positive (221 reviews).
+Average sentiment scores: positive=0.930, neutral=0.062, negative=0.008.
+Average auxiliary scores: referral=0.019, community=0.001, discussion=0.003.",chunk_00014
+brand_topic_summary,data\camera_sentiment_label.xlsx,富士,Appearance & Satisfaction,ALL,Brand-topic summary - Fujifilm (富士) - Appearance & Satisfaction,"Brand-topic summary for Fujifilm (富士) on Appearance & Satisfaction.
+Review volume in this slice: 310.
+Dominant rule-based sentiment: positive (310 reviews).
+Dominant model-predicted sentiment: positive (310 reviews).
+Average sentiment scores: positive=0.897, neutral=0.091, negative=0.012.
+Average auxiliary scores: referral=0.011, community=0.000, discussion=0.001.",chunk_00015
+brand_topic_summary,data\camera_sentiment_label.xlsx,富士,Design & Portability,ALL,Brand-topic summary - Fujifilm (富士) - Design & Portability,"Brand-topic summary for Fujifilm (富士) on Design & Portability.
+Review volume in this slice: 64.
+Dominant rule-based sentiment: positive (64 reviews).
+Dominant model-predicted sentiment: positive (64 reviews).
+Average sentiment scores: positive=0.952, neutral=0.043, negative=0.005.
+Average auxiliary scores: referral=0.005, community=0.000, discussion=0.005.",chunk_00016
+brand_topic_summary,data\camera_sentiment_label.xlsx,富士,Logistics & Service,ALL,Brand-topic summary - Fujifilm (富士) - Logistics & Service,"Brand-topic summary for Fujifilm (富士) on Logistics & Service.
+Review volume in this slice: 382.
+Dominant rule-based sentiment: positive (382 reviews).
+Dominant model-predicted sentiment: positive (382 reviews).
+Average sentiment scores: positive=0.907, neutral=0.082, negative=0.012.
+Average auxiliary scores: referral=0.034, community=0.000, discussion=0.008.",chunk_00017
+brand_topic_summary,data\camera_sentiment_label.xlsx,富士,Performance & Quality,ALL,Brand-topic summary - Fujifilm (富士) - Performance & Quality,"Brand-topic summary for Fujifilm (富士) on Performance & Quality.
+Review volume in this slice: 124.
+Dominant rule-based sentiment: positive (124 reviews).
+Dominant model-predicted sentiment: positive (124 reviews).
+Average sentiment scores: positive=0.907, neutral=0.082, negative=0.011.
+Average auxiliary scores: referral=0.033, community=0.001, discussion=0.004.",chunk_00018
+brand_topic_summary,data\camera_sentiment_label.xlsx,尼康,Appearance & Satisfaction,ALL,Brand-topic summary - Nikon (尼康) - Appearance & Satisfaction,"Brand-topic summary for Nikon (尼康) on Appearance & Satisfaction.
+Review volume in this slice: 211.
+Dominant rule-based sentiment: positive (211 reviews).
+Dominant model-predicted sentiment: positive (211 reviews).
+Average sentiment scores: positive=0.915, neutral=0.075, negative=0.010.
+Average auxiliary scores: referral=0.011, community=0.000, discussion=0.005.",chunk_00019
+brand_topic_summary,data\camera_sentiment_label.xlsx,尼康,Design & Portability,ALL,Brand-topic summary - Nikon (尼康) - Design & Portability,"Brand-topic summary for Nikon (尼康) on Design & Portability.
+Review volume in this slice: 169.
+Dominant rule-based sentiment: positive (169 reviews).
+Dominant model-predicted sentiment: positive (169 reviews).
+Average sentiment scores: positive=0.975, neutral=0.024, negative=0.002.
+Average auxiliary scores: referral=0.005, community=0.000, discussion=0.008.",chunk_00020
+brand_topic_summary,data\camera_sentiment_label.xlsx,尼康,Logistics & Service,ALL,Brand-topic summary - Nikon (尼康) - Logistics & Service,"Brand-topic summary for Nikon (尼康) on Logistics & Service.
+Review volume in this slice: 402.
+Dominant rule-based sentiment: positive (402 reviews).
+Dominant model-predicted sentiment: positive (402 reviews).
+Average sentiment scores: positive=0.916, neutral=0.073, negative=0.010.
+Average auxiliary scores: referral=0.015, community=0.000, discussion=0.016.",chunk_00021
+brand_topic_summary,data\camera_sentiment_label.xlsx,尼康,Performance & Quality,ALL,Brand-topic summary - Nikon (尼康) - Performance & Quality,"Brand-topic summary for Nikon (尼康) on Performance & Quality.
+Review volume in this slice: 280.
+Dominant rule-based sentiment: positive (277 reviews).
+Dominant model-predicted sentiment: positive (277 reviews).
+Average sentiment scores: positive=0.911, neutral=0.078, negative=0.010.
+Average auxiliary scores: referral=0.013, community=0.002, discussion=0.005.",chunk_00022
+brand_topic_summary,data\camera_sentiment_label.xlsx,索尼,Appearance & Satisfaction,ALL,Brand-topic summary - Sony (索尼) - Appearance & Satisfaction,"Brand-topic summary for Sony (索尼) on Appearance & Satisfaction.
+Review volume in this slice: 198.
+Dominant rule-based sentiment: positive (198 reviews).
+Dominant model-predicted sentiment: positive (198 reviews).
+Average sentiment scores: positive=0.910, neutral=0.079, negative=0.010.
+Average auxiliary scores: referral=0.010, community=0.001, discussion=0.007.",chunk_00023
+brand_topic_summary,data\camera_sentiment_label.xlsx,索尼,Design & Portability,ALL,Brand-topic summary - Sony (索尼) - Design & Portability,"Brand-topic summary for Sony (索尼) on Design & Portability.
+Review volume in this slice: 210.
+Dominant rule-based sentiment: positive (210 reviews).
+Dominant model-predicted sentiment: positive (210 reviews).
+Average sentiment scores: positive=0.969, neutral=0.028, negative=0.002.
+Average auxiliary scores: referral=0.007, community=0.000, discussion=0.006.",chunk_00024
+brand_topic_summary,data\camera_sentiment_label.xlsx,索尼,Logistics & Service,ALL,Brand-topic summary - Sony (索尼) - Logistics & Service,"Brand-topic summary for Sony (索尼) on Logistics & Service.
+Review volume in this slice: 273.
+Dominant rule-based sentiment: positive (273 reviews).
+Dominant model-predicted sentiment: positive (273 reviews).
+Average sentiment scores: positive=0.921, neutral=0.069, negative=0.010.
+Average auxiliary scores: referral=0.028, community=0.000, discussion=0.015.",chunk_00025
+brand_topic_summary,data\camera_sentiment_label.xlsx,索尼,Performance & Quality,ALL,Brand-topic summary - Sony (索尼) - Performance & Quality,"Brand-topic summary for Sony (索尼) on Performance & Quality.
+Review volume in this slice: 258.
+Dominant rule-based sentiment: positive (258 reviews).
+Dominant model-predicted sentiment: positive (258 reviews).
+Average sentiment scores: positive=0.922, neutral=0.069, negative=0.009.
+Average auxiliary scores: referral=0.018, community=0.003, discussion=0.004.",chunk_00026
+review_evidence,data\camera_sentiment_label.xlsx,佳能,Appearance & Satisfaction,positive,Review evidence - Canon (佳能) - Appearance & Satisfaction - positive,"Representative review evidence.
+Brand: Canon (佳能).
+Topic: Appearance & Satisfaction.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2023-11-09.
+Product spec: R50 黑色  EOS R50【RF-S18-45镜头套机】.
+Review text: 产品包装：京东包装挺好的，有蛮多保护措施的
+外形外观：买的黑色，怕白色后面镜头不好选
+成像效果：第一台相机，还在学习拍照阶段，还没时间出去拍拍，就在家里试了下，效果对我来说可以了，期待出去玩拍更多好看的照片
+便携性能：女孩子手拿着也挺方便的，也不重，携带方便
+Scores: positive=0.995, neutral=0.005, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00027
+review_evidence,data\camera_sentiment_label.xlsx,佳能,Appearance & Satisfaction,positive,Review evidence - Canon (佳能) - Appearance & Satisfaction - positive,"Representative review evidence.
+Brand: Canon (佳能).
+Topic: Appearance & Satisfaction.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-12-28.
+Product spec: R50黑色拆单机+RF28 2.8【人像饼干头】 官方标配【京东多仓发~快可次日达】.
+Review text: 第一次选相机很纠结 还是选择了佳能 很好用 新手也可以直接操作 拍出来的照片很清晰没踩雷 很喜欢
+Scores: positive=0.993, neutral=0.006, negative=0.001, referral=0.000, community=0.000, discussion=0.000.",chunk_00028
+review_evidence,data\camera_sentiment_label.xlsx,佳能,Appearance & Satisfaction,positive,Review evidence - Canon (佳能) - Appearance & Satisfaction - positive,"Representative review evidence.
+Brand: Canon (佳能).
+Topic: Appearance & Satisfaction.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2026-02-15.
+Product spec: R50 黑色  R50 18-45镜头套机.
+Review text: 很适合女孩子小巧精致轻便好用！很喜欢拍照也很好看 很喜欢
+Scores: positive=0.992, neutral=0.007, negative=0.001, referral=0.000, community=0.000, discussion=0.000.",chunk_00029
+review_evidence,data\camera_sentiment_label.xlsx,佳能,Design & Portability,positive,Review evidence - Canon (佳能) - Design & Portability - positive,"Representative review evidence.
+Brand: Canon (佳能).
+Topic: Design & Portability.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2023-11-05.
+Product spec: R50 黑色  EOS R50【RF-S18-45镜头套机】.
+Review text: 产品包装：包装完好，外面有个大箱子，里面还放了防撞垫子，避免撞伤，相机盒子里面也做了防撞保护
+外形外观：相机外观小巧精致可爱，适合小女生拍照，用来记录日常生活也足够了
+成像效果：成像颜色很不错，看着很圆润，人像拍出来很好看
+反应速度：反应还不错吧，整体自我感觉
+便携性能：方便携带，很小巧，微单主要就是方便才购买的。用于家庭日常，毕竟不是专业摄影。
+Scores: positive=0.999, neutral=0.001, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00030
+review_evidence,data\camera_sentiment_label.xlsx,佳能,Design & Portability,positive,Review evidence - Canon (佳能) - Design & Portability - positive,"Representative review evidence.
+Brand: Canon (佳能).
+Topic: Design & Portability.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2023-05-05.
+Product spec: R50 黑色  EOS R50【RF-S18-45镜头套机】.
+Review text: 外形外观：经典好看
+产品包装：很有创意
+成像效果：成像效果真的爱了
+反应速度：很快
+便携性能：性能强，城乡效果好，性价比高
+Scores: positive=0.999, neutral=0.001, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00031
+review_evidence,data\camera_sentiment_label.xlsx,佳能,Design & Portability,positive,Review evidence - Canon (佳能) - Design & Portability - positive,"Representative review evidence.
+Brand: Canon (佳能).
+Topic: Design & Portability.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2024-06-10.
+Product spec: R50白色 RF-S18-45套机 套餐二【套餐二免费升级套餐三~强烈建议套餐二】.
+Review text: 产品包装：完好无损
+反应速度：很快
+便携性能：方便携带，大小正合适
+外形外观：白色款，很不错，我很喜欢
+成像效果：拍了家里猫咪，试拍的，效果很好
+其他特色：是正品，三码合一！
+Scores: positive=0.999, neutral=0.001, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00032
+review_evidence,data\camera_sentiment_label.xlsx,佳能,Logistics & Service,positive,Review evidence - Canon (佳能) - Logistics & Service - positive,"Representative review evidence.
+Brand: Canon (佳能).
+Topic: Logistics & Service.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-12-22.
+Product spec: R50拆单机身白+（128G卡*2+背包+电池） 官方标配（赠6期免息）.
+Review text: 很喜欢，功能非常多，画质清晰，是正品，很满意
+Scores: positive=0.997, neutral=0.002, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00033
+review_evidence,data\camera_sentiment_label.xlsx,佳能,Logistics & Service,positive,Review evidence - Canon (佳能) - Logistics & Service - positive,"Representative review evidence.
+Brand: Canon (佳能).
+Topic: Logistics & Service.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-04-20.
+Product spec: EOS R50黑 单机身旅行版 （拆）.
+Review text: 选了很久选了这一款，很喜欢，刚收到还不会怎么用，会慢慢学习拍好看的照片，非常满意
+Scores: positive=0.997, neutral=0.002, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00034
+review_evidence,data\camera_sentiment_label.xlsx,佳能,Logistics & Service,positive,Review evidence - Canon (佳能) - Logistics & Service - positive,"Representative review evidence.
+Brand: Canon (佳能).
+Topic: Logistics & Service.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2024-10-16.
+Product spec: 黑色 RF-S18-45+RF50 1.8双头套装 套餐一【含128G内存卡~送豪华摄影大礼包】.
+Review text: 佳能·感动常在
+外形外观：好看
+成像效果：超赞
+产品包装：嘎嘎稳当
+反应速度：快
+触屏相当好用
+Scores: positive=0.996, neutral=0.003, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00035
+review_evidence,data\camera_sentiment_label.xlsx,佳能,Performance & Quality,positive,Review evidence - Canon (佳能) - Performance & Quality - positive,"Representative review evidence.
+Brand: Canon (佳能).
+Topic: Performance & Quality.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-07-05.
+Product spec: 黑色 RF-S18-45+RF50 1.8双头套装 套餐二【套餐二免费升级套餐三~强烈建议套餐二】.
+Review text: 佳能R50轻巧便携，画质细腻，对焦迅速，操作简单易上手。高感表现出色，视频拍摄流畅，性价比超高。佳能感动常在，记录生活美好瞬间，非常适合摄影新手，强烈推荐！
+Scores: positive=0.996, neutral=0.004, negative=0.000, referral=0.111, community=0.000, discussion=0.000.",chunk_00036
+review_evidence,data\camera_sentiment_label.xlsx,佳能,Performance & Quality,positive,Review evidence - Canon (佳能) - Performance & Quality - positive,"Representative review evidence.
+Brand: Canon (佳能).
+Topic: Performance & Quality.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-07-10.
+Product spec: EOS R50(RF-S 18-45套装）白旅行版 官方标配（赠3期免息）.
+Review text: 操作友好，画质清晰，功能丰富。性价比高，颜值高。携带方便。非常喜欢
+Scores: positive=0.995, neutral=0.004, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00037
+review_evidence,data\camera_sentiment_label.xlsx,佳能,Performance & Quality,positive,Review evidence - Canon (佳能) - Performance & Quality - positive,"Representative review evidence.
+Brand: Canon (佳能).
+Topic: Performance & Quality.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-11-30.
+Product spec: R50黑色 RF-S18-45套机 官方标配【京东多仓发~快可次日达】.
+Review text: 性价比高，拍照很清晰，录制视频也很清晰，机器小巧轻便，人像和风景照都很不错，女朋友很喜欢，好评，佳能·感动常在
+Scores: positive=0.995, neutral=0.005, negative=0.000, referral=0.111, community=0.000, discussion=0.000.",chunk_00038
+review_evidence,data\camera_sentiment_label.xlsx,富士,Appearance & Satisfaction,positive,Review evidence - Fujifilm (富士) - Appearance & Satisfaction - positive,"Representative review evidence.
+Brand: Fujifilm (富士).
+Topic: Appearance & Satisfaction.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-06-11.
+Product spec: 黑色15-45套机.
+Review text: 产品包装：包装很素，就是普通硬板纸原色
+外形外观：外形真的小巧，但是你要知道越小巧握持感越差，买到一件事就买好带手柄的皮套。
+成像效果：都买富士了，要什么清晰度，玩的是胶片模拟和颜色。
+Scores: positive=0.996, neutral=0.004, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00039
+review_evidence,data\camera_sentiment_label.xlsx,富士,Appearance & Satisfaction,positive,Review evidence - Fujifilm (富士) - Appearance & Satisfaction - positive,"Representative review evidence.
+Brand: Fujifilm (富士).
+Topic: Appearance & Satisfaction.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-09-24.
+Product spec: 银色15-45套机.
+Review text: 小巧轻便，该有的功能滤镜也都有，性价比高。
+Scores: positive=0.996, neutral=0.004, negative=0.001, referral=0.000, community=0.000, discussion=0.000.",chunk_00040
+review_evidence,data\camera_sentiment_label.xlsx,富士,Appearance & Satisfaction,positive,Review evidence - Fujifilm (富士) - Appearance & Satisfaction - positive,"Representative review evidence.
+Brand: Fujifilm (富士).
+Topic: Appearance & Satisfaction.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2024-12-20.
+Product spec: 黑色15-45套机.
+Review text: 照相机很好用，性价比很高，最喜欢就是这款照相机了，携带方便，去哪里都很出片，真的很喜欢这个太爱了。还不是说很喜欢这台照相机，我的天啊，太棒了吧
+Scores: positive=0.994, neutral=0.006, negative=0.001, referral=0.000, community=0.000, discussion=0.000.",chunk_00041
+review_evidence,data\camera_sentiment_label.xlsx,富士,Design & Portability,positive,Review evidence - Fujifilm (富士) - Design & Portability - positive,"Representative review evidence.
+Brand: Fujifilm (富士).
+Topic: Design & Portability.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-10-30.
+Product spec: 黑色XC35套机.
+Review text: 绝美 心动很久了 终于拥有了 很好看 爱 非常好非常喜欢嘿嘿
+产品包装：完美
+外形外观：好看的 价格又便宜
+成像效果：很好
+便携性能：很方便
+其他特色：很实用 喜欢
+反应速度：很快 多多拍照吧 记录美好生活
+Scores: positive=0.997, neutral=0.003, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00042
+review_evidence,data\camera_sentiment_label.xlsx,富士,Design & Portability,positive,Review evidence - Fujifilm (富士) - Design & Portability - positive,"Representative review evidence.
+Brand: Fujifilm (富士).
+Topic: Design & Portability.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-06-10.
+Product spec: 黑色XC35套机.
+Review text: 不错不错 非常好看 是我喜欢的 哈哈 我也是小小摄影师啦
+产品包装：严实
+外形外观：小巧
+成像效果：很好
+反应速度：块
+Scores: positive=0.997, neutral=0.003, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00043
+review_evidence,data\camera_sentiment_label.xlsx,富士,Design & Portability,positive,Review evidence - Fujifilm (富士) - Design & Portability - positive,"Representative review evidence.
+Brand: Fujifilm (富士).
+Topic: Design & Portability.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-10-17.
+Product spec: 黑色XC35套机.
+Review text: 产品包装：包装很好没有破损
+外形外观：外观时尚好看 大人非常喜欢 送礼非常有面子
+成像效果：效果好 尤其是拍摄视频 人像模式好
+反应速度：反应灵敏 快捷 操作简单
+便携性能：携带方便
+Scores: positive=0.996, neutral=0.003, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00044
+review_evidence,data\camera_sentiment_label.xlsx,富士,Logistics & Service,positive,Review evidence - Fujifilm (富士) - Logistics & Service - positive,"Representative review evidence.
+Brand: Fujifilm (富士).
+Topic: Logistics & Service.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-03-16.
+Product spec: 银色机身.
+Review text: 产品包装：严密安全，非常不错，对产品保护很好
+反应速度：点赞，不愧是富士
+终于是被我抢到了，非常满意，五星好评，非常满意，不错，性价比极高，真好，抢到原价
+Scores: positive=0.995, neutral=0.005, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00045
+review_evidence,data\camera_sentiment_label.xlsx,富士,Logistics & Service,positive,Review evidence - Fujifilm (富士) - Logistics & Service - positive,"Representative review evidence.
+Brand: Fujifilm (富士).
+Topic: Logistics & Service.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-10-18.
+Product spec: 银色15-45套机.
+Review text: 哇哦，真的很厉害，自己能抢到原价，这款相机非常合适我，价格不贵，性价比很高，相机大小合适，拿到手上很舒服，相机功能也很好，值得推荐
+Scores: positive=0.994, neutral=0.005, negative=0.001, referral=0.111, community=0.000, discussion=0.000.",chunk_00046
+review_evidence,data\camera_sentiment_label.xlsx,富士,Logistics & Service,positive,Review evidence - Fujifilm (富士) - Logistics & Service - positive,"Representative review evidence.
+Brand: Fujifilm (富士).
+Topic: Logistics & Service.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-09-03.
+Product spec: 银色15-45套机.
+Review text: 收到货了，这款相机款式很好看，包装完好，拍照清晰，外形感觉很复古，携带方便，这是帮朋友买的第二个了，
+京东物流很给力，自营店品质有保证，下次还会光顾！
+Scores: positive=0.993, neutral=0.007, negative=0.001, referral=0.111, community=0.000, discussion=0.000.",chunk_00047
+review_evidence,data\camera_sentiment_label.xlsx,富士,Performance & Quality,positive,Review evidence - Fujifilm (富士) - Performance & Quality - positive,"Representative review evidence.
+Brand: Fujifilm (富士).
+Topic: Performance & Quality.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-11-25.
+Product spec: 黑色15-45套机.
+Review text: 富士相机外观精美，性能卓越，拍照效果出色，值得购买！相机设计独特，功能齐全，使用起来得心应手，物流速度快。性价比高，色彩还原自然，拍照效果极佳，值得推荐！色彩还原准确，操作简便，非常满意！
+Scores: positive=0.994, neutral=0.005, negative=0.001, referral=0.111, community=0.000, discussion=0.000.",chunk_00048
+review_evidence,data\camera_sentiment_label.xlsx,富士,Performance & Quality,positive,Review evidence - Fujifilm (富士) - Performance & Quality - positive,"Representative review evidence.
+Brand: Fujifilm (富士).
+Topic: Performance & Quality.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-11-14.
+Product spec: 银色15-45套机.
+Review text: 好看，拍照清晰，清晰
+Scores: positive=0.988, neutral=0.010, negative=0.001, referral=0.000, community=0.000, discussion=0.000.",chunk_00049
+review_evidence,data\camera_sentiment_label.xlsx,富士,Performance & Quality,positive,Review evidence - Fujifilm (富士) - Performance & Quality - positive,"Representative review evidence.
+Brand: Fujifilm (富士).
+Topic: Performance & Quality.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2026-02-23.
+Product spec: 黑色15-45套机.
+Review text: 作为新手摸索使用这款富士相机，换镜头便利操作无压力。色彩还原度高，能原图直出效果佳，成像真实自然，不愧是富士，值得入手。
+Scores: positive=0.988, neutral=0.010, negative=0.002, referral=0.000, community=0.000, discussion=0.000.",chunk_00050
+review_evidence,data\camera_sentiment_label.xlsx,富士,Unassigned,positive,Review evidence - Fujifilm (富士) - Unassigned - positive,"Representative review evidence.
+Brand: Fujifilm (富士).
+Topic: Unassigned.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-12-18.
+Product spec: 银色XC35套机.
+Review text: 很好哦-！！！！！！！！！
+Scores: positive=0.916, neutral=0.072, negative=0.011, referral=0.000, community=0.000, discussion=0.000.",chunk_00051
+review_evidence,data\camera_sentiment_label.xlsx,尼康,Appearance & Satisfaction,positive,Review evidence - Nikon (尼康) - Appearance & Satisfaction - positive,"Representative review evidence.
+Brand: Nikon (尼康).
+Topic: Appearance & Satisfaction.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2026-01-25.
+Product spec: Z30(16-50 + 50-250)双镜头套装 标配【送膜+64G卡+相机包+座充+晒单送三脚架】.
+Review text: 相机非常好，性价比很高，很轻薄，还有带着很方便携带，相机自重不重，非常适合女生还有初学者使用。包包也是防震的，还有香包，一股淡淡的茶香，很喜欢。拍照非常清晰，说明书也很详细。
+Scores: positive=0.995, neutral=0.005, negative=0.001, referral=0.000, community=0.000, discussion=0.000.",chunk_00052
+review_evidence,data\camera_sentiment_label.xlsx,尼康,Appearance & Satisfaction,positive,Review evidence - Nikon (尼康) - Appearance & Satisfaction - positive,"Representative review evidence.
+Brand: Nikon (尼康).
+Topic: Appearance & Satisfaction.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2022-12-24.
+Product spec: 黑色 16-50mm套机.
+Review text: 买的套机纯粹因为预算不足，因为是新手的原因感觉套机拍景和手机区别真的不太大～有预算还是建议上双镜头！！相机质感很好，方便携带，套机平时记录日常还是够的～～翻转屏真的很方便！！在同价位中算是质感比较好的。很喜欢，新手可冲！
+Scores: positive=0.994, neutral=0.006, negative=0.001, referral=0.000, community=0.000, discussion=0.000.",chunk_00053
+review_evidence,data\camera_sentiment_label.xlsx,尼康,Appearance & Satisfaction,positive,Review evidence - Nikon (尼康) - Appearance & Satisfaction - positive,"Representative review evidence.
+Brand: Nikon (尼康).
+Topic: Appearance & Satisfaction.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-03-28.
+Product spec: Z30独立单机(未开封原包装) 官方标配【下单送屏幕膜+品牌座充+相机包】.
+Review text: 第一次拍，刚开始学，感觉相机非常好用，感觉后续照片会更好，拍出来的照片比手机真强太多了，强力推荐 很喜欢
+Scores: positive=0.992, neutral=0.007, negative=0.001, referral=0.111, community=0.000, discussion=0.000.",chunk_00054
+review_evidence,data\camera_sentiment_label.xlsx,尼康,Design & Portability,positive,Review evidence - Nikon (尼康) - Design & Portability - positive,"Representative review evidence.
+Brand: Nikon (尼康).
+Topic: Design & Portability.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2024-11-30.
+Product spec: Z30 + 18-140mm套机.
+Review text: 很喜欢，非常轻便，拍照也不错，
+产品包装：包装完好，保护很好
+成像效果：不错，锐利
+外形外观：便携，容易抓握
+反应速度：很快
+其他特色：色彩很棒手柄更大、握持更深，屏幕精细程度更高
+Scores: positive=0.998, neutral=0.002, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00055
+review_evidence,data\camera_sentiment_label.xlsx,尼康,Design & Portability,positive,Review evidence - Nikon (尼康) - Design & Portability - positive,"Representative review evidence.
+Brand: Nikon (尼康).
+Topic: Design & Portability.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-11-30.
+Product spec: Z30(16-50 + 50-250)双镜头套装 标配【送64G卡+膜+相机包+座充】不要可折价.
+Review text: 产品包装：严实完好
+外形外观：美观崭新
+成像效果：好 如图可见
+反应速度：快速准确
+便携性能：最轻的微单相机了
+Scores: positive=0.998, neutral=0.002, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00056
+review_evidence,data\camera_sentiment_label.xlsx,尼康,Design & Portability,positive,Review evidence - Nikon (尼康) - Design & Portability - positive,"Representative review evidence.
+Brand: Nikon (尼康).
+Topic: Design & Portability.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2024-12-21.
+Product spec: 黑色 16-50mm套机.
+Review text: 产品包装：产品包装非常新未拆封
+外形外观：Z三零机型很硬朗，符合我的审美观
+成像效果：成像效果在半画幅中算是很不错的
+反应速度：拍照的反应速度也值得，这个价格很不错！
+Scores: positive=0.997, neutral=0.003, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00057
+review_evidence,data\camera_sentiment_label.xlsx,尼康,Logistics & Service,positive,Review evidence - Nikon (尼康) - Logistics & Service - positive,"Representative review evidence.
+Brand: Nikon (尼康).
+Topic: Logistics & Service.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2022-08-30.
+Product spec: 黑色 16-50mm套机.
+Review text: 产品包装：收到快递包装完好，内物填充也保证相机运输很安全
+
+外形外观：翻转屏好评，非常深的握柄好评，前后拨轮和各个大部分按钮位置，都能让右手一只手掌控，好评
+
+反应速度：设置里可以提高对焦速度
+
+便携性能：拿在手里非常小巧一只手可以快速拍照
+
+其他特色：京东送的相机包也不错完全够用
+Scores: positive=0.998, neutral=0.002, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00058
+review_evidence,data\camera_sentiment_label.xlsx,尼康,Logistics & Service,positive,Review evidence - Nikon (尼康) - Logistics & Service - positive,"Representative review evidence.
+Brand: Nikon (尼康).
+Topic: Logistics & Service.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2023-06-24.
+Product spec: Z30 单机.
+Review text: 小白的第一台相机，纠结很久，最后选择加入尼康大军，相机很好，小巧轻便，外观很好看，拿起来也很有质感,发货速度很快，东西很好，这也是我的第一部尼康相机，非常喜欢，颜值很高，虽然充电稍微久了点，但是也挺耐用的，性价比很高
+Scores: positive=0.997, neutral=0.002, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00059
+review_evidence,data\camera_sentiment_label.xlsx,尼康,Logistics & Service,positive,Review evidence - Nikon (尼康) - Logistics & Service - positive,"Representative review evidence.
+Brand: Nikon (尼康).
+Topic: Logistics & Service.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2026-01-28.
+Product spec: Z30(16-50 + 50-250)双镜头套装 标配【送膜+64G卡+相机包+座充+晒单送三脚架】.
+Review text: 选了很久，还是选了Z30，性价比高，适合我这样的新手入门。相机已到，非常喜欢，暂时都没有什么问题，官网也都顺利注册。坐等天晴，出门拍照。
+Scores: positive=0.995, neutral=0.004, negative=0.001, referral=0.000, community=0.000, discussion=0.111.",chunk_00060
+review_evidence,data\camera_sentiment_label.xlsx,尼康,Performance & Quality,neutral,Review evidence - Nikon (尼康) - Performance & Quality - neutral,"Representative review evidence.
+Brand: Nikon (尼康).
+Topic: Performance & Quality.
+Rule-based sentiment: neutral.
+Model-predicted sentiment: neutral.
+Date: 2025-12-22.
+Product spec: 黑色 16-50mm+50-250mm 双镜头套机.
+Review text: 可以呢，很轻，带着很便携，拍照用着很顺希
+望拍照技术能有所长进，买的双套头。就是光圈
+比较小，后面需要拍人像的话，在入手个打光定。
+Scores: positive=0.385, neutral=0.574, negative=0.041, referral=0.000, community=0.000, discussion=0.000.",chunk_00061
+review_evidence,data\camera_sentiment_label.xlsx,尼康,Performance & Quality,neutral,Review evidence - Nikon (尼康) - Performance & Quality - neutral,"Representative review evidence.
+Brand: Nikon (尼康).
+Topic: Performance & Quality.
+Rule-based sentiment: neutral.
+Model-predicted sentiment: neutral.
+Date: 2025-12-18.
+Product spec: 黑色 16-50mm套机.
+Review text: 可以呢，很轻，带着很便携，拍照用着很顺手，希等鹅
+照技术能有所长进，买的双套头。就是光圈比较心”
+后面需要拍人像的话，在入手个打光定。
+Scores: positive=0.385, neutral=0.562, negative=0.053, referral=0.000, community=0.000, discussion=0.000.",chunk_00062
+review_evidence,data\camera_sentiment_label.xlsx,尼康,Performance & Quality,neutral,Review evidence - Nikon (尼康) - Performance & Quality - neutral,"Representative review evidence.
+Brand: Nikon (尼康).
+Topic: Performance & Quality.
+Rule-based sentiment: neutral.
+Model-predicted sentiment: neutral.
+Date: 2025-12-05.
+Product spec: 黑色 16-50mm+50-250mm 双镜头套机.
+Review text: 可以呢，很轻，带着很便携，拍照用着很顺手，希望拍照技术能有所长进，买的双套头。就是光圈比较小，后面需要拍人像的话，在入手个打光定。
+Scores: positive=0.426, neutral=0.529, negative=0.045, referral=0.000, community=0.000, discussion=0.000.",chunk_00063
+review_evidence,data\camera_sentiment_label.xlsx,尼康,Performance & Quality,positive,Review evidence - Nikon (尼康) - Performance & Quality - positive,"Representative review evidence.
+Brand: Nikon (尼康).
+Topic: Performance & Quality.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2026-02-28.
+Product spec: Z30单机/拆单机身（可注册） 标配【送膜+64G卡+相机包+座充+清洁套+腕带】.
+Review text: 这款相机颜值高、操作简单，成像清晰色彩自然，对焦快续航够用，日常拍照录视频都很稳，性价比超高，非常满意，推荐入手！
+Scores: positive=0.994, neutral=0.005, negative=0.001, referral=0.111, community=0.000, discussion=0.000.",chunk_00064
+review_evidence,data\camera_sentiment_label.xlsx,尼康,Performance & Quality,positive,Review evidence - Nikon (尼康) - Performance & Quality - positive,"Representative review evidence.
+Brand: Nikon (尼康).
+Topic: Performance & Quality.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2026-02-15.
+Product spec: Z30(16-50 + 50-250)双镜头套装 标配【送膜+64G卡+相机包+座充+清洁套+腕带】.
+Review text: 这款相机成像清晰细腻，色彩自然有质感，操作简单易上手，对焦快、续航够用，日常记录、旅行拍照都很合适，性价比高，颜值也耐看，非常满意！
+Scores: positive=0.993, neutral=0.006, negative=0.001, referral=0.000, community=0.000, discussion=0.000.",chunk_00065
+review_evidence,data\camera_sentiment_label.xlsx,尼康,Performance & Quality,positive,Review evidence - Nikon (尼康) - Performance & Quality - positive,"Representative review evidence.
+Brand: Nikon (尼康).
+Topic: Performance & Quality.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2022-08-28.
+Product spec: Z30 单机.
+Review text: 一直是尼康老用户，用过d700，d3，单反全画幅很给力，不过太重了。微单时代，还是选择尼康，轻巧画质好，触摸屏很方便，新机型对焦好太多，很喜欢！
+Scores: positive=0.992, neutral=0.007, negative=0.001, referral=0.000, community=0.000, discussion=0.000.",chunk_00066
+review_evidence,data\camera_sentiment_label.xlsx,索尼,Appearance & Satisfaction,positive,Review evidence - Sony (索尼) - Appearance & Satisfaction - positive,"Representative review evidence.
+Brand: Sony (索尼).
+Topic: Appearance & Satisfaction.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2024-09-10.
+Product spec: 黑色 单机.
+Review text: 挑选了很久最终选了zve10，作为小白的第一款相机再适合不过了。小巧轻便，sony的颜值还是杠杠的，能抢到也是运气很好，非常喜欢，功能还需要摸索，期待能产出好看的照片！
+Scores: positive=0.996, neutral=0.003, negative=0.001, referral=0.000, community=0.000, discussion=0.000.",chunk_00067
+review_evidence,data\camera_sentiment_label.xlsx,索尼,Appearance & Satisfaction,positive,Review evidence - Sony (索尼) - Appearance & Satisfaction - positive,"Representative review evidence.
+Brand: Sony (索尼).
+Topic: Appearance & Satisfaction.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2023-10-29.
+Product spec: 黑色单机【64G卡+皮套+888】 官方标配（不含内存卡）.
+Review text: 相机和送的赠品都很好，黑色有质感，很喜欢，操作页面也没传说的那么不好用，个人觉得还不错。
+买的单机配的镜头，拍出的照片感觉可以～
+Scores: positive=0.992, neutral=0.007, negative=0.001, referral=0.000, community=0.000, discussion=0.000.",chunk_00068
+review_evidence,data\camera_sentiment_label.xlsx,索尼,Appearance & Satisfaction,positive,Review evidence - Sony (索尼) - Appearance & Satisfaction - positive,"Representative review evidence.
+Brand: Sony (索尼).
+Topic: Appearance & Satisfaction.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-08-31.
+Product spec: 黑色套机【128卡+皮套+电池+充电器+888】 官方标配（不含内存卡）.
+Review text: 相机到手非常有质感，非常好看，很喜欢，拍照也很好看，小巧便携，带出去拍照非常可以！拍视频也很流畅，非常推荐！
+Scores: positive=0.992, neutral=0.007, negative=0.001, referral=0.111, community=0.000, discussion=0.000.",chunk_00069
+review_evidence,data\camera_sentiment_label.xlsx,索尼,Design & Portability,positive,Review evidence - Sony (索尼) - Design & Portability - positive,"Representative review evidence.
+Brand: Sony (索尼).
+Topic: Design & Portability.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-06-14.
+Product spec: 白色套机【64G卡+皮套+888】 官方标配（不含内存卡）.
+Review text: 产品包装：好
+外形外观：很好
+成像效果：非常好
+反应速度：非常非常好
+便携性能：超级超级好
+Scores: positive=0.998, neutral=0.002, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00070
+review_evidence,data\camera_sentiment_label.xlsx,索尼,Design & Portability,positive,Review evidence - Sony (索尼) - Design & Portability - positive,"Representative review evidence.
+Brand: Sony (索尼).
+Topic: Design & Portability.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2024-09-28.
+Product spec: 白色 16-50标准镜头套装.
+Review text: 外形外观：相机外观颜值真的超高，拿在手上手感也很不错
+成像效果：自带的镜头拍的也很不错
+便携性能：相机机身很轻，方便携带
+Scores: positive=0.997, neutral=0.002, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00071
+review_evidence,data\camera_sentiment_label.xlsx,索尼,Design & Portability,positive,Review evidence - Sony (索尼) - Design & Portability - positive,"Representative review evidence.
+Brand: Sony (索尼).
+Topic: Design & Portability.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-07-18.
+Product spec: E10L套机 白【赠 相机套+64G卡】 官方标配【国补专享】.
+Review text: 外形外观：很漂亮很喜欢
+成像效果：不错可以再配个镜头
+产品包装：密封的很好
+便携性能：很便益
+其他特色：白色深的我心
+Scores: positive=0.997, neutral=0.003, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00072
+review_evidence,data\camera_sentiment_label.xlsx,索尼,Logistics & Service,positive,Review evidence - Sony (索尼) - Logistics & Service - positive,"Representative review evidence.
+Brand: Sony (索尼).
+Topic: Logistics & Service.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-10-18.
+Product spec: 白色 16-50标准镜头套装.
+Review text: 性价比拉满，成像效果很好，很适合新手。人生第一台相机，很满意。很喜欢
+Scores: positive=0.995, neutral=0.005, negative=0.000, referral=0.000, community=0.000, discussion=0.000.",chunk_00073
+review_evidence,data\camera_sentiment_label.xlsx,索尼,Logistics & Service,positive,Review evidence - Sony (索尼) - Logistics & Service - positive,"Representative review evidence.
+Brand: Sony (索尼).
+Topic: Logistics & Service.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-10-21.
+Product spec: E10K黑色套机 官方标配【64G卡+相机套+腕带+电池+座充】.
+Review text: 第一次买相机，非常担心翻车，但是很不错的是收到的相机是正品，三码合一，成功注册了，看了眼机头和cmos没有问题，送的电池两个，一个充电器，还送了个相机套。手感很好，感觉不会很塑料。
+产品包装：好
+外形外观：好
+成像效果：好
+反应速度：快
+便携性能：很小
+Scores: positive=0.995, neutral=0.005, negative=0.000, referral=0.000, community=0.000, discussion=0.111.",chunk_00074
+review_evidence,data\camera_sentiment_label.xlsx,索尼,Logistics & Service,positive,Review evidence - Sony (索尼) - Logistics & Service - positive,"Representative review evidence.
+Brand: Sony (索尼).
+Topic: Logistics & Service.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-08-28.
+Product spec: 黑色拆机身+腾 龙17-70F2.8(大光圈） 套餐三.
+Review text: 对比了好几台相机 看了很久才下手 性价比很高 爱不释手 天天把玩着 爱 自己买喜欢的东西真的很有成就感！ 好评快递很快 包装很仔细 推荐
+Scores: positive=0.995, neutral=0.005, negative=0.001, referral=0.111, community=0.000, discussion=0.000.",chunk_00075
+review_evidence,data\camera_sentiment_label.xlsx,索尼,Performance & Quality,positive,Review evidence - Sony (索尼) - Performance & Quality - positive,"Representative review evidence.
+Brand: Sony (索尼).
+Topic: Performance & Quality.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-08-30.
+Product spec: 黑色 16-50标准镜头套装.
+Review text: 新相机到手超惊喜！画质清晰细腻，操作简单易上手，轻便便携不压手，拍景拍人都出片，性价比拉满，真心推荐给想入门的朋友！
+成像效果：非常好
+外形外观：好看，挺酷的
+产品包装：包装很好
+Scores: positive=0.998, neutral=0.002, negative=0.000, referral=0.333, community=0.000, discussion=0.000.",chunk_00076
+review_evidence,data\camera_sentiment_label.xlsx,索尼,Performance & Quality,positive,Review evidence - Sony (索尼) - Performance & Quality - positive,"Representative review evidence.
+Brand: Sony (索尼).
+Topic: Performance & Quality.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2025-10-14.
+Product spec: E10K黑色套机 官方标配【相机包+快拆腕带+品牌电池+座充】.
+Review text: 研究了好久终于下手啦，这款相机画质清晰细腻，操作简单易上手，轻便便携颜值高，记录生活好帮手，非常满意！
+Scores: positive=0.994, neutral=0.006, negative=0.001, referral=0.000, community=0.000, discussion=0.111.",chunk_00077
+review_evidence,data\camera_sentiment_label.xlsx,索尼,Performance & Quality,positive,Review evidence - Sony (索尼) - Performance & Quality - positive,"Representative review evidence.
+Brand: Sony (索尼).
+Topic: Performance & Quality.
+Rule-based sentiment: positive.
+Model-predicted sentiment: positive.
+Date: 2022-11-03.
+Product spec: 白色 16-50标准镜头套装.
+Review text: 非常满意，4k固定机位简直无敌，无时长录制限制，可以边充边拍，超采样，还有监听接口，数字热靴，侧翻屏幕
+Scores: positive=0.991, neutral=0.007, negative=0.001, referral=0.000, community=0.000, discussion=0.000.",chunk_00078
+trend_summary,data\camera_sentiment_label.xlsx,佳能,ALL,ALL,Trend summary - Canon (佳能),"Trend summary for Canon (佳能).
+Latest month in data: 2026-03.
+Monthly review counts snapshot: 2025-10: 63; 2025-11: 106; 2025-12: 100; 2026-01: 61; 2026-02: 54; 2026-03: 20.
+Monthly average positive score snapshot: 2025-10: 0.932; 2025-11: 0.933; 2025-12: 0.915; 2026-01: 0.930; 2026-02: 0.935; 2026-03: 0.930.
+Monthly average negative score snapshot: 2025-10: 0.007; 2025-11: 0.007; 2025-12: 0.009; 2026-01: 0.009; 2026-02: 0.008; 2026-03: 0.007.",chunk_00079
+trend_summary,data\camera_sentiment_label.xlsx,富士,ALL,ALL,Trend summary - Fujifilm (富士),"Trend summary for Fujifilm (富士).
+Latest month in data: 2026-03.
+Monthly review counts snapshot: 2025-10: 114; 2025-11: 86; 2025-12: 97; 2026-01: 38; 2026-02: 23; 2026-03: 22.
+Monthly average positive score snapshot: 2025-10: 0.907; 2025-11: 0.903; 2025-12: 0.910; 2026-01: 0.911; 2026-02: 0.878; 2026-03: 0.910.
+Monthly average negative score snapshot: 2025-10: 0.010; 2025-11: 0.011; 2025-12: 0.011; 2026-01: 0.011; 2026-02: 0.014; 2026-03: 0.010.",chunk_00080
+trend_summary,data\camera_sentiment_label.xlsx,尼康,ALL,ALL,Trend summary - Nikon (尼康),"Trend summary for Nikon (尼康).
+Latest month in data: 2026-03.
+Monthly review counts snapshot: 2025-10: 91; 2025-11: 74; 2025-12: 200; 2026-01: 67; 2026-02: 34; 2026-03: 17.
+Monthly average positive score snapshot: 2025-10: 0.928; 2025-11: 0.920; 2025-12: 0.918; 2026-01: 0.930; 2026-02: 0.932; 2026-03: 0.915.
+Monthly average negative score snapshot: 2025-10: 0.009; 2025-11: 0.009; 2025-12: 0.009; 2026-01: 0.008; 2026-02: 0.009; 2026-03: 0.011.",chunk_00081
+trend_summary,data\camera_sentiment_label.xlsx,索尼,ALL,ALL,Trend summary - Sony (索尼),"Trend summary for Sony (索尼).
+Latest month in data: 2026-03.
+Monthly review counts snapshot: 2025-10: 157; 2025-11: 44; 2025-12: 17; 2026-01: 10; 2026-02: 13; 2026-03: 9.
+Monthly average positive score snapshot: 2025-10: 0.931; 2025-11: 0.926; 2025-12: 0.921; 2026-01: 0.940; 2026-02: 0.917; 2026-03: 0.939.
+Monthly average negative score snapshot: 2025-10: 0.008; 2025-11: 0.009; 2025-12: 0.010; 2026-01: 0.006; 2026-02: 0.010; 2026-03: 0.008.",chunk_00082
