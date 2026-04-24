@@ -317,15 +317,18 @@ def convert_df_to_csv(df: pd.DataFrame) -> bytes:
     return df.to_csv(index=False).encode("utf-8-sig")
 
 
-def ordered_topics(values: list[str]) -> list[str]:
-    present = [v for v in values if pd.notna(v)]
+def ordered_topics(values) -> list[str]:
+    present = pd.Series(values)
+    present = present[present.notna()].astype(str)
+    present = present.drop_duplicates().tolist()
     return [t for t in TOPIC_ORDER if t in present] + sorted([t for t in present if t not in TOPIC_ORDER])
 
 
-
-def ordered_brands(values: list[str]) -> list[str]:
+def ordered_brands(values) -> list[str]:
     preferred = ["Canon", "Fujifilm", "Nikon", "Sony"]
-    present = [v for v in values if pd.notna(v)]
+    present = pd.Series(values)
+    present = present[present.notna()].astype(str)
+    present = present.drop_duplicates().tolist()
     return [b for b in preferred if b in present] + sorted([b for b in present if b not in preferred])
 
 
